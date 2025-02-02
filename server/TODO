@@ -1,0 +1,3 @@
+mkdir -p src/cert # if you don't have the src/cert directory
+mkcert -install
+mkcert -key-file ./src/cert/key.pem -cert-file ./src/cert/cert.pem localhost
