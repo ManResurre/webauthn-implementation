@@ -33,6 +33,7 @@ export default ts.config(
   // global rule overrides
   {
     rules: {
+      '@typescript-eslint/no-misused-promises': 'off',
       '@typescript-eslint/no-empty-object-type': [
         'error',
         {

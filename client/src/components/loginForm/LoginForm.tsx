@@ -58,7 +58,7 @@ function LoginForm() {
     <Stack
       spacing={1}
       component="form"
-      onSubmit={void handleSubmit(onSubmit)}
+      onSubmit={handleSubmit(onSubmit)}
       noValidate
       autoComplete="off"
     >
