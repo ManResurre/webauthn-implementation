@@ -32,7 +32,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && npm run copy",
-    "copy": "copyfiles -u 1 build/**/* ../server/client",
+    "copy": "copyfiles -u 1 build/**/* ../public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
