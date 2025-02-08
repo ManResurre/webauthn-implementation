@@ -39,7 +39,7 @@ function RegistrationForm() {
   }, []);
 
   useEffect(() => {
-    inspector.start();
+    // inspector.start();
     const subscription = actor.subscribe((snapshot) => {
       if (snapshot.context.error) {
         setError(snapshot.context.error);
@@ -52,7 +52,7 @@ function RegistrationForm() {
 
     return () => {
       subscription.unsubscribe();
-      inspector.stop();
+      // inspector.stop();
     };
   }, []);
 

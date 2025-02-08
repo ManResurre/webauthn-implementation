@@ -1,0 +1,17 @@
+{
+  "name": "webauth-poc",
+  "version": "1.0.0",
+  "repository": "git@github.com:RaresAil/webauth-poc.git",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "vercel-build": "npm run build:server",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "build:client": "cd client && npm build",
+    "build:server": "cd server && npm run build"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
