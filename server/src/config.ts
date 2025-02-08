@@ -11,5 +11,5 @@ export const Config = {
   RP_NAME: process.env.RP_NAME ?? 'Example Service',
   ORIGIN: process.env.ORIGIN ?? 'http://localhost:8100',
   UUID_NAMESPACE: process.env.UUID_NAMESPACE ?? 'd243c3d4-6f4b-4dc7-b4e4-6c913bff9d9c',
-  PORT: process.env.PORT ?? 8100,
+  PORT: process.env.PORT ?? 80,
 };
